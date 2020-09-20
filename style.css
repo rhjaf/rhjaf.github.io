@@ -16,11 +16,7 @@ body{
 
 /*navbar*/
 .sidebar{
-    height: 100vh;/* it means that height of sidebar will be 100% of viewport.so it will be stregtch from top to bottom for all screen sizes.*/
-    /*background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url("images/img1.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
+    height: 100vh;
     background-color: #33c670;
     box-shadow: 5px 7px 25px #999;
     
@@ -30,24 +26,12 @@ body{
 }
 /*end of navbar*/
 
-
-
-.sidebar-link:hover{
-    border-radius: 5px;
-    color: #444;
-}
-
-.sidebar-link {
-    transition: all 0.4s;
-}
-
-.current {
+.sidebar-link + p{
+    color:#bbb !important;
+    cursor: pointer;
 
 }
 
-.current:hover{
-
-}
 .icon-parent{
     position: relative;
 }
@@ -73,7 +57,7 @@ body{
 
 .profile{
     margin : 0 auto;
-    background-image: url("images/cust1.jpeg");
+    background-image: url("https://via.placeholder.com/300/dddddd/000000");
     background-position: center;
     background-size: cover;
     width: 150px;
@@ -82,29 +66,6 @@ body{
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6), 0 8px 22px 0 rgba(0, 0, 0, 0.2);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*cards*/
 .card-common {
