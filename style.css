@@ -57,7 +57,7 @@ body{
 
 .profile{
     margin : 0 auto;
-    background-image: url("https://via.placeholder.com/300/dddddd/000000");
+    background-image: url("/images/img01.jpg");
     background-position: center;
     background-size: cover;
     width: 150px;
@@ -76,4 +76,27 @@ body{
     box-shadow: 2px 3px 15px #999;
     transform: translateY(-1px);
 }
+
+.card-shadow{
+    box-shadow: 5px 8px 20px #444;
+
+}
+.headingc{
+    position: absolute;
+    top:70%;
+    right:0;
+    font-size:14px;
+    letter-spacing: 1px;
+    background-color: #222;
+    width: 70%;
+    cursor: pointer;
+    opacity: .7;
+    transition: all .5s;
+}
+.headingc:hover{
+    opacity: 1;
+}
+
+
+
 /*end of cards*/
